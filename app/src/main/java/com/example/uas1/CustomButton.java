@@ -24,8 +24,6 @@ public class CustomButton extends AppCompatButton {
 
     public CustomButton(Context context) {
         super(context);
-        loveIcon = ResourcesCompat.getDrawable(getResources(),
-                R.drawable.baseline_favorite_24,null);
 
         init();
     }
@@ -43,7 +41,7 @@ public class CustomButton extends AppCompatButton {
         textPaint.setTextSize(36);
         textPaint.setTextAlign(Paint.Align.CENTER);
         buttonText = "♥CLICK ME♥";
-        setCompoundDrawablesWithIntrinsicBounds(loveIcon, null, loveIcon,null);
+    
     }
 
     @Override
